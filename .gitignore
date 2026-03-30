@@ -1,57 +1,49 @@
 ```
-# Directories
-__pycache__/
-*.egg-info/
-build/
-dist/
-node_modules/
-.venv/
-venv/
-.env
-.vscode/
-.idea/
-
-# Compiled files
+# Compiled and build artifacts
 *.pyc
-*.pyo
-*.pyd
-*.so
-*.dylib
-*.dll
-*.exe
+__pycache__/
 *.o
 *.obj
+*.out
+*.exe
+*.dll
+*.so
 *.a
-*.lib
 
-# Logs and temporary files
+# Dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # System files
 .DS_Store
 Thumbs.db
 
 # Coverage
-.coverage
 coverage/
 htmlcov/
-
-# Environment files
-.env*
-*.env*
-
-# Python specific
-*.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
-.eggs/
-pip-log.txt
-pip-delete-this-directory.txt
+.coverage
 
 # Compressed files
 *.zip
