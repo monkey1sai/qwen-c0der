@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "routes": [
+    {
+      "path": ".",
+      "purpose": "primary workspace",
+      "notes": "Main repository for qwen-c0der."
+    }
+  ]
+}

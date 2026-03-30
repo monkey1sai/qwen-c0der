@@ -1,0 +1,11 @@
+.workspace/
+!/.workspace/
+!/.workspace/router.json
+!/.workspace/index.json
+!/.workspace/context.md
+
+__pycache__/
+.venv/
+node_modules/
+dist/
+build/
